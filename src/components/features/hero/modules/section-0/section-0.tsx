@@ -16,7 +16,7 @@ export const Section0 = () => {
                         <p className={cn(typography.pTypo, "text-white ")}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium aliquid animi asperiores consectetur esse.
                         </p>
-                        <Button className={cn("w-fit")}>
+                        <Button className={cn("w-fit bg-black text-white")}>
                             Claim
                         </Button>
                     </div>
