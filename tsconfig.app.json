@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    /* Path Aliases */
+    "baseUrl": "./src",  //
+    "paths": {
+      "@/*": ["./*"],  //
+      "@styles/*": ["./styles/*"],
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"],
+      "@types/*": ["./types/*"],
+      "@data/*": ["./data/*"],
+      "@lib/*": ["./lib/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@icons/*": ["./components/icons/*"],
+      "@templates/*": ["./components/templates/*"],
+      "@pages/*": ["./components/pages/*"]
+    }
+  },
+  "include": [
+    "src",
+    "src/**/*.d.ts",
+    "src/vite-env-d.ts"
+  ]
+}
