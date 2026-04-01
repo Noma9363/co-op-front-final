@@ -3,7 +3,7 @@ export {IoIosMenu} from "react-icons/io";
 export {
     SiHtml5,
     SiJavascript,
-    SiCss3,
+    SiCss,
     SiTailwindcss,
     SiTypescript,
     SiShadcnui,

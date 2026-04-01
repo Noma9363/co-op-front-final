@@ -7,7 +7,7 @@ export const Section0 = () => {
     return(
         <section>
             <div className={cn("w-full aspect-auto py-32", "section-0 bg-primary-foreground relative overflow-y-clip")}>
-                <img src="/images/history/20.png" alt="" className={cn("absolute w-full left-0 top-0")} />
+                <img src="/images/history/20.png" alt="background img" className={cn("absolute w-full left-0 top-0")} />
                 <article className={cn("page-container h-full flex flex-col justify-center items-start")}>
                     <div className={cn("w-1/2 flex flex-col justify-center gap-4 backdrop-blur-sm p-8")}>
                         <strong className={cn(typography.h3Typo, "text-white")}>
@@ -16,7 +16,7 @@ export const Section0 = () => {
                         <p className={cn(typography.pTypo, "text-white ")}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium aliquid animi asperiores consectetur esse.
                         </p>
-                        <Button className={cn("w-fit bg-white text-black")}>
+                        <Button className={cn("w-fit bg-white text-black hover:bg-gray-400")}>
                             Claim
                         </Button>
                     </div>

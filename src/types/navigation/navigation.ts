@@ -4,7 +4,7 @@ type basicNavMenuType ={
     title: string;
     href: string;
     description?: string;
-
+    isDisabled?: boolean;
 }
 
 export interface SubMenuItem extends basicNavMenuType{

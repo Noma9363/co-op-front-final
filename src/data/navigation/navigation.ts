@@ -12,10 +12,12 @@ export const navigation: NavRoute[] = [
             {
                 href: "/product/",
                 title: "Wireless",
+                isDisabled: true
             },
             {
                 href: "/product/",
                 title: "Software",
+                isDisabled: true
             }
         ]
     },
@@ -26,14 +28,17 @@ export const navigation: NavRoute[] = [
             {
                 href: "/app/live",
                 title: "Live",
+                isDisabled: true
             },
             {
                 href: "/app/studio-recording",
                 title: "StudioRecording",
+                isDisabled: true
             },
             {
                 href: "/app/meeting",
                 title: "Meeting",
+                isDisabled: true
             }
         ]
     },
@@ -44,10 +49,12 @@ export const navigation: NavRoute[] = [
             {
                 href: "/story/customers",
                 title: "Customers",
+                isDisabled: true,
             },
             {
                 href: "/story/pro-talks",
-                title: "Pro Talks"
+                title: "Pro Talks",
+                isDisabled: true,
             }
         ]
     },
@@ -58,6 +65,7 @@ export const navigation: NavRoute[] = [
             {
                 href: "/support/qna",
                 title: "Qna",
+                isDisabled: true
             }
         ]
     },
